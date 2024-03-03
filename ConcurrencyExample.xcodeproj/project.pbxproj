@@ -23,6 +23,7 @@
 		9DE705EC2B9473C000CEAFC7 /* CustomGlobalActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE705EB2B9473C000CEAFC7 /* CustomGlobalActorView.swift */; };
 		9DE705EE2B947F2C00CEAFC7 /* CustomSendableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE705ED2B947F2C00CEAFC7 /* CustomSendableView.swift */; };
 		9DE705F02B9483CF00CEAFC7 /* CustomAsyncPublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE705EF2B9483CF00CEAFC7 /* CustomAsyncPublisherView.swift */; };
+		9DE705F22B9489DE00CEAFC7 /* CustomReferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE705F12B9489DE00CEAFC7 /* CustomReferenceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		9DE705EB2B9473C000CEAFC7 /* CustomGlobalActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGlobalActorView.swift; sourceTree = "<group>"; };
 		9DE705ED2B947F2C00CEAFC7 /* CustomSendableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSendableView.swift; sourceTree = "<group>"; };
 		9DE705EF2B9483CF00CEAFC7 /* CustomAsyncPublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncPublisherView.swift; sourceTree = "<group>"; };
+		9DE705F12B9489DE00CEAFC7 /* CustomReferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomReferenceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				9DE705EB2B9473C000CEAFC7 /* CustomGlobalActorView.swift */,
 				9DE705ED2B947F2C00CEAFC7 /* CustomSendableView.swift */,
 				9DE705EF2B9483CF00CEAFC7 /* CustomAsyncPublisherView.swift */,
+				9DE705F12B9489DE00CEAFC7 /* CustomReferenceView.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				9D4FF0F22B9468F500C04DCC /* CustomActorView.swift in Sources */,
 				9DE705F02B9483CF00CEAFC7 /* CustomAsyncPublisherView.swift in Sources */,
+				9DE705F22B9489DE00CEAFC7 /* CustomReferenceView.swift in Sources */,
 				9D4FF0F02B94210300C04DCC /* CustomContinuationView.swift in Sources */,
 				9D4FF0E42B934BC400C04DCC /* CustomDownloadAyncImageView.swift in Sources */,
 				9DE705EE2B947F2C00CEAFC7 /* CustomSendableView.swift in Sources */,
