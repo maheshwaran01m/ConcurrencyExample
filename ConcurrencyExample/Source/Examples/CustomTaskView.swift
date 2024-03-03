@@ -17,7 +17,7 @@ struct CustomTaskView: View {
         image
           .resizable()
           .scaledToFit()
-          .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
+          .frame(width: 100, height: 100)
           .clipShape(RoundedRectangle(cornerRadius: 16))
       }
       
@@ -25,7 +25,7 @@ struct CustomTaskView: View {
         image
           .resizable()
           .scaledToFit()
-          .frame(width: /*@START_MENU_TOKEN@*/100/*@END_MENU_TOKEN@*/, height: 100)
+          .frame(width: 100, height: 100)
           .clipShape(RoundedRectangle(cornerRadius: 16))
       }
     }
@@ -42,7 +42,7 @@ struct CustomTaskView_Previews: PreviewProvider {
 
 // MARK: - ViewModel
 
-class CustomTaskViewModel: ObservableObject {
+fileprivate class CustomTaskViewModel: ObservableObject {
   
   @Published var image: Image?
   @Published var image1: Image?
