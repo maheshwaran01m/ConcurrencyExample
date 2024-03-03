@@ -17,6 +17,8 @@
 		9D4FF0E82B93613100C04DCC /* CustomAsyncAwaitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4FF0E72B93613100C04DCC /* CustomAsyncAwaitView.swift */; };
 		9D4FF0EA2B9367D700C04DCC /* CustomTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4FF0E92B9367D700C04DCC /* CustomTaskView.swift */; };
 		9D4FF0EC2B940F1800C04DCC /* CustomAsyncLetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4FF0EB2B940F1800C04DCC /* CustomAsyncLetView.swift */; };
+		9D4FF0EE2B94158A00C04DCC /* CustomTaskGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4FF0ED2B94158A00C04DCC /* CustomTaskGroupView.swift */; };
+		9D4FF0F02B94210300C04DCC /* CustomContinuationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4FF0EF2B94210300C04DCC /* CustomContinuationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		9D4FF0E72B93613100C04DCC /* CustomAsyncAwaitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncAwaitView.swift; sourceTree = "<group>"; };
 		9D4FF0E92B9367D700C04DCC /* CustomTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTaskView.swift; sourceTree = "<group>"; };
 		9D4FF0EB2B940F1800C04DCC /* CustomAsyncLetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncLetView.swift; sourceTree = "<group>"; };
+		9D4FF0ED2B94158A00C04DCC /* CustomTaskGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTaskGroupView.swift; sourceTree = "<group>"; };
+		9D4FF0EF2B94210300C04DCC /* CustomContinuationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContinuationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				9D4FF0E72B93613100C04DCC /* CustomAsyncAwaitView.swift */,
 				9D4FF0E92B9367D700C04DCC /* CustomTaskView.swift */,
 				9D4FF0EB2B940F1800C04DCC /* CustomAsyncLetView.swift */,
+				9D4FF0ED2B94158A00C04DCC /* CustomTaskGroupView.swift */,
+				9D4FF0EF2B94210300C04DCC /* CustomContinuationView.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -179,6 +185,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4FF0F02B94210300C04DCC /* CustomContinuationView.swift in Sources */,
 				9D4FF0E42B934BC400C04DCC /* CustomDownloadAyncImageView.swift in Sources */,
 				9D4FF0E82B93613100C04DCC /* CustomAsyncAwaitView.swift in Sources */,
 				9D4FF0E62B93609800C04DCC /* CoordinatorView.swift in Sources */,
@@ -187,6 +194,7 @@
 				9D4FF0D12B9344BB00C04DCC /* ConcurrencyExampleApp.swift in Sources */,
 				9D4FF0E12B93454D00C04DCC /* CustomDoCatchView.swift in Sources */,
 				9D4FF0EA2B9367D700C04DCC /* CustomTaskView.swift in Sources */,
+				9D4FF0EE2B94158A00C04DCC /* CustomTaskGroupView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
