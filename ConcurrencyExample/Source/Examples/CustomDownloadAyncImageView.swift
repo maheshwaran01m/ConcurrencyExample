@@ -39,7 +39,7 @@ struct CustomDownloadAyncImageView_Previews: PreviewProvider {
 
 // MARK: - ViewModel
 
-class CustomDownloadAyncImageViewModel: ObservableObject {
+fileprivate class CustomDownloadAyncImageViewModel: ObservableObject {
   
   @Published var image: Image?
   @Published var task: Task<(), Error>?

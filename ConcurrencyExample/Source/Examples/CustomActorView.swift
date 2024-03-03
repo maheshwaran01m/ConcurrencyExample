@@ -96,6 +96,8 @@ fileprivate struct CustomActorBrowseView: View {
     }
      */
     
+    // Using actor
+    /*
     .onReceive(timer) { _ in
       Task {
         if let value = await manager.getRecords() {
@@ -105,6 +107,7 @@ fileprivate struct CustomActorBrowseView: View {
         }
       }
     }
+    */
   }
 }
 

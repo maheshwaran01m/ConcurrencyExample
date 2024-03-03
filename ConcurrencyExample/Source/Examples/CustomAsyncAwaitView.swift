@@ -29,7 +29,7 @@ struct CustomAsyncAwaitView_Previews: PreviewProvider {
 
 // MARK: -
 
-class CustomAsyncAwaitViewModel: ObservableObject {
+fileprivate class CustomAsyncAwaitViewModel: ObservableObject {
   
   @Published var records = [String]()
   
