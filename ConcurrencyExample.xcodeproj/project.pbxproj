@@ -19,6 +19,7 @@
 		9D4FF0EC2B940F1800C04DCC /* CustomAsyncLetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4FF0EB2B940F1800C04DCC /* CustomAsyncLetView.swift */; };
 		9D4FF0EE2B94158A00C04DCC /* CustomTaskGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4FF0ED2B94158A00C04DCC /* CustomTaskGroupView.swift */; };
 		9D4FF0F02B94210300C04DCC /* CustomContinuationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4FF0EF2B94210300C04DCC /* CustomContinuationView.swift */; };
+		9D4FF0F22B9468F500C04DCC /* CustomActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4FF0F12B9468F500C04DCC /* CustomActorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		9D4FF0EB2B940F1800C04DCC /* CustomAsyncLetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncLetView.swift; sourceTree = "<group>"; };
 		9D4FF0ED2B94158A00C04DCC /* CustomTaskGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTaskGroupView.swift; sourceTree = "<group>"; };
 		9D4FF0EF2B94210300C04DCC /* CustomContinuationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContinuationView.swift; sourceTree = "<group>"; };
+		9D4FF0F12B9468F500C04DCC /* CustomActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				9D4FF0EB2B940F1800C04DCC /* CustomAsyncLetView.swift */,
 				9D4FF0ED2B94158A00C04DCC /* CustomTaskGroupView.swift */,
 				9D4FF0EF2B94210300C04DCC /* CustomContinuationView.swift */,
+				9D4FF0F12B9468F500C04DCC /* CustomActorView.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D4FF0F22B9468F500C04DCC /* CustomActorView.swift in Sources */,
 				9D4FF0F02B94210300C04DCC /* CustomContinuationView.swift in Sources */,
 				9D4FF0E42B934BC400C04DCC /* CustomDownloadAyncImageView.swift in Sources */,
 				9D4FF0E82B93613100C04DCC /* CustomAsyncAwaitView.swift in Sources */,
