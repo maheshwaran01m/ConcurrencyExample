@@ -9,7 +9,7 @@ import SwiftUI
 
 enum CoordinatorView: CaseIterable {
   case image, asyncAwait, asyncLet, task, taskGroup, continuation, actor, globalActor,
-       sendable, asyncPublisher
+       sendable, asyncPublisher, reference
   
   var title: String {
     switch self {
@@ -23,6 +23,7 @@ enum CoordinatorView: CaseIterable {
     case .globalActor: return "Global Actor"
     case .sendable: return "Sendable"
     case .asyncPublisher: return "Async Publisher"
+    case .reference: return "Reference"
     }
   }
   
@@ -39,6 +40,7 @@ enum CoordinatorView: CaseIterable {
     case .globalActor: CustomGlobalActorView()
     case .sendable: CustomSendableView()
     case .asyncPublisher: CustomAsyncPublisherView()
+    case .reference: CustomReferenceView()
     }
   }
 }
