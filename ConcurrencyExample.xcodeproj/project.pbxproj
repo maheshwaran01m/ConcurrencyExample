@@ -20,6 +20,7 @@
 		9D4FF0EE2B94158A00C04DCC /* CustomTaskGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4FF0ED2B94158A00C04DCC /* CustomTaskGroupView.swift */; };
 		9D4FF0F02B94210300C04DCC /* CustomContinuationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4FF0EF2B94210300C04DCC /* CustomContinuationView.swift */; };
 		9D4FF0F22B9468F500C04DCC /* CustomActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4FF0F12B9468F500C04DCC /* CustomActorView.swift */; };
+		9DE705EC2B9473C000CEAFC7 /* CustomGlobalActorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE705EB2B9473C000CEAFC7 /* CustomGlobalActorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		9D4FF0ED2B94158A00C04DCC /* CustomTaskGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTaskGroupView.swift; sourceTree = "<group>"; };
 		9D4FF0EF2B94210300C04DCC /* CustomContinuationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContinuationView.swift; sourceTree = "<group>"; };
 		9D4FF0F12B9468F500C04DCC /* CustomActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomActorView.swift; sourceTree = "<group>"; };
+		9DE705EB2B9473C000CEAFC7 /* CustomGlobalActorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGlobalActorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				9D4FF0ED2B94158A00C04DCC /* CustomTaskGroupView.swift */,
 				9D4FF0EF2B94210300C04DCC /* CustomContinuationView.swift */,
 				9D4FF0F12B9468F500C04DCC /* CustomActorView.swift */,
+				9DE705EB2B9473C000CEAFC7 /* CustomGlobalActorView.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				9D4FF0E82B93613100C04DCC /* CustomAsyncAwaitView.swift in Sources */,
 				9D4FF0E62B93609800C04DCC /* CoordinatorView.swift in Sources */,
 				9D4FF0D32B9344BB00C04DCC /* ContentView.swift in Sources */,
+				9DE705EC2B9473C000CEAFC7 /* CustomGlobalActorView.swift in Sources */,
 				9D4FF0EC2B940F1800C04DCC /* CustomAsyncLetView.swift in Sources */,
 				9D4FF0D12B9344BB00C04DCC /* ConcurrencyExampleApp.swift in Sources */,
 				9D4FF0E12B93454D00C04DCC /* CustomDoCatchView.swift in Sources */,

@@ -8,7 +8,7 @@
 import SwiftUI
 
 enum CoordinatorView: CaseIterable {
-  case image, asyncAwait, asyncLet, task, taskGroup, continuation, actor
+  case image, asyncAwait, asyncLet, task, taskGroup, continuation, actor, globalActor
   
   var title: String {
     switch self {
@@ -19,6 +19,7 @@ enum CoordinatorView: CaseIterable {
     case .taskGroup: return "Task Group"
     case .continuation: return "Continuation"
     case .actor: return "Actor"
+    case .globalActor: return "Global Actor"
     }
   }
   
@@ -32,6 +33,7 @@ enum CoordinatorView: CaseIterable {
     case .taskGroup: CustomTaskGroupView()
     case .continuation: CustomContinuationView()
     case .actor: CustomActorView()
+    case .globalActor: CustomGlobalActorView()
     }
   }
 }
