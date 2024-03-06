@@ -24,6 +24,8 @@
 		9DE705EE2B947F2C00CEAFC7 /* CustomSendableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE705ED2B947F2C00CEAFC7 /* CustomSendableView.swift */; };
 		9DE705F02B9483CF00CEAFC7 /* CustomAsyncPublisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE705EF2B9483CF00CEAFC7 /* CustomAsyncPublisherView.swift */; };
 		9DE705F22B9489DE00CEAFC7 /* CustomReferenceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE705F12B9489DE00CEAFC7 /* CustomReferenceView.swift */; };
+		9DE705F42B948FB100CEAFC7 /* CustomAsyncStreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE705F32B948FB100CEAFC7 /* CustomAsyncStreamView.swift */; };
+		9DE705F62B949FB100CEAFC7 /* CustomObservableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE705F52B949FB100CEAFC7 /* CustomObservableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		9DE705ED2B947F2C00CEAFC7 /* CustomSendableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSendableView.swift; sourceTree = "<group>"; };
 		9DE705EF2B9483CF00CEAFC7 /* CustomAsyncPublisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncPublisherView.swift; sourceTree = "<group>"; };
 		9DE705F12B9489DE00CEAFC7 /* CustomReferenceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomReferenceView.swift; sourceTree = "<group>"; };
+		9DE705F32B948FB100CEAFC7 /* CustomAsyncStreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncStreamView.swift; sourceTree = "<group>"; };
+		9DE705F52B949FB100CEAFC7 /* CustomObservableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomObservableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +130,8 @@
 				9DE705ED2B947F2C00CEAFC7 /* CustomSendableView.swift */,
 				9DE705EF2B9483CF00CEAFC7 /* CustomAsyncPublisherView.swift */,
 				9DE705F12B9489DE00CEAFC7 /* CustomReferenceView.swift */,
+				9DE705F32B948FB100CEAFC7 /* CustomAsyncStreamView.swift */,
+				9DE705F52B949FB100CEAFC7 /* CustomObservableView.swift */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
@@ -206,6 +212,7 @@
 				9D4FF0F02B94210300C04DCC /* CustomContinuationView.swift in Sources */,
 				9D4FF0E42B934BC400C04DCC /* CustomDownloadAyncImageView.swift in Sources */,
 				9DE705EE2B947F2C00CEAFC7 /* CustomSendableView.swift in Sources */,
+				9DE705F42B948FB100CEAFC7 /* CustomAsyncStreamView.swift in Sources */,
 				9D4FF0E82B93613100C04DCC /* CustomAsyncAwaitView.swift in Sources */,
 				9D4FF0E62B93609800C04DCC /* CoordinatorView.swift in Sources */,
 				9D4FF0D32B9344BB00C04DCC /* ContentView.swift in Sources */,
@@ -215,6 +222,7 @@
 				9D4FF0E12B93454D00C04DCC /* CustomDoCatchView.swift in Sources */,
 				9D4FF0EA2B9367D700C04DCC /* CustomTaskView.swift in Sources */,
 				9D4FF0EE2B94158A00C04DCC /* CustomTaskGroupView.swift in Sources */,
+				9DE705F62B949FB100CEAFC7 /* CustomObservableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
